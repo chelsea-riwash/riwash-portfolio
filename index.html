@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riwash's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f9735977fa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Cyber Security Engineer</p>
+                <h1>Hi, I'm <span>Riwash</span><br> Neupane From Nepal</h1>
+            </div>
+
+        </div>
+
+    </div>
+
+ <!------------------------------------about------------------------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a cybersecurity professional with experience in information security, specializing in fintech and remittance services. My primary focus is on offensive security, including vulnerability assessments, penetration testing, threat analysis and Security Audits. I’m passionate about identifying and mitigating security risks to help businesses strengthen their defenses.  
+ 
+                        Beyond my technical work, I am also interested in education and knowledge sharing. I explore opportunities to teach cybersecurity-related subjects like Cyber Law, Web Application Security, Cryptography, IS Audit, Network Security and more.  
+                         
+                        Outside of cybersecurity, I am a foodie and a dedicated Football(Chelsea) fan. Football and food are two of my biggest passions, and I enjoy sharing my experiences with others.  
+                         
+                        I’m always learning, always exploring, and always looking for new challenges in the cybersecurity landscape.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>Web App VAPT</span><br>Securing the web, one vulnerability at a time.</li>
+                                    <li><span>Mobile App & API VAPT</span><br>Ensuring your mobile and API environments are safe from threats.</li>
+                                    <li><span>IS Audits</span><br>Assessing information security to keep businesses on the right track.</li>
+                                    <li><span>EDR/XDR</span><br>Real-time threat detection and response, staying one step ahead.</li>
+                                    <li><span>SIEM</span><br>Collecting, analyzing, and responding to security events in real time.</li>
+                                    <li><span>Data Analysis & Machine Learning</span><br>Unlocking insights and driving automation through data.</li>
+                                    <li><span>Programming & Scripting</span><br>Building solutions and automating tasks with code.</li>
+            
+                                </ul>
+                            </div>
+
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>2024 January - Current </span><br>Information Security Engineer at Swift technology Pvt. Ltd(IME Group)</li>
+                                    <li><span>2023 January - 2024 December</span><br>Information Security Officer at Amnil technologies Pvt. Ltd</li>
+                                    <li><span>2022 September - 2022 December</span><br>Quality Assurance Intern at Amnil technologies Pvt. Ltd</li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>2024 - Present </span><br>MSc in Computer Engineering specialization in Network and Cyber Security at IOE, Pulchowk</li>
+                                    <li><span>2018 - 2023</span><br>Bachelors of Computer Engineering at Institute of Engineering, TU</li>
+                                    <li><span>2016  - 2018</span><br>+2 Science at Prasadi Academy</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!------------------------------------Services------------------------------------>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>Web Application VAPT</h2>
+                <p>
+                    Our Web Application Vulnerability Assessment and Penetration Testing (VAPT) service identifies and addresses security risks by scanning for vulnerabilities and simulating real-world attacks. This helps ensure your web applications are secure and protected against evolving threats.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-mobile"></i>
+                <h2>Mobile App and API VAPT</h2>
+                <p>
+                    Our Mobile and API VAPT service identifies and addresses security risks by assessing vulnerabilities and performing penetration testing on mobile apps and APIs. This ensures your systems are secure and protected against potential threats.               
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-server"></i>
+                <h2>Network and System Security</h2>
+                <p>
+                    Our Network and System Security service safeguards both your network and IT systems from cyber threats. We deploy firewalls, intrusion detection/prevention systems, and security protocols to protect your infrastructure, while also ensuring system hardening and regular monitoring to prevent unauthorized access and potential attacks.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-file-contract"></i>
+                <h2>IS (Information Systems) Audit</h2>
+                <p>
+                    Our IS (Information Systems) Audit service evaluates your organization’s IT systems, policies, and controls to ensure compliance, security, and efficiency. We identify risks, assess vulnerabilities, and provide recommendations to strengthen your information systems, helping you maintain optimal performance and safeguard against potential threats.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-person-chalkboard"></i>
+                <h2>Security Consulting</h2>
+                <p>
+                    Our Security Consulting service offers expert guidance to help you identify, assess, evaluate, treat and mitigate security risks. We provide tailored strategies, best practices, and solutions to strengthen your security posture, ensuring your organization is protected from evolving cyber threats and compliant with industry standards.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-user-shield"></i>
+                <h2>Security Awareness and Training</h2>
+                <p>
+                    Our Security Awareness and Training service helps employees recognize and respond to security threats, like phishing and social engineering, through targeted training. This empowers your team to protect sensitive data and maintain a strong security culture across your organization.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Data Analysis and Machine Learning</h2>
+                <p>
+                    Our Data Analysis and Machine Learning service turns your data into actionable insights using advanced analytics and custom models. We help optimize processes and predict trends to support informed decision-making. Unlock the full potential of your data to drive business growth.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-vault"></i>
+                <h2>Other Services</h2>
+                <p>
+                    In addition to our core services, we offer a variety of security products to enhance your protection. These include firewalls, encryption tools, antivirus software, identity and access management solutions, and cloud security solutions. Our products, paired with our expert services, help ensure your organization is safeguarded against evolving cyber threats.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------------------------Portfolio----------------------------- -->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.jpg">
+                <div class="layer">
+                    <h3>Web, Mobile and API VAPT</h3>
+                    <p>Identifying and securing vulnerabilities in web, mobile, and API applications to protect against cyber threats.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.jpg">
+                <div class="layer">
+                    <h3>Network and Server Security</h3>
+                    <p>
+                        Protecting network infrastructures and servers through robust security measures to prevent unauthorized access.                     </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+            <div class="work">
+                <img src="images/work-4.jpg">
+                <div class="layer">
+                    <h3>Security Audits</h3>
+                    <p>
+                        Assessing systems, policies, and controls to identify vulnerabilities and ensure compliance with industry standards.                  
+                     </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-5.jpg">
+                <div class="layer">
+                    <h3>Security Consulting, Awareness and Trainings</h3>
+                    <p>
+                    Providing security guidance and training to manage risks and threats. </p>                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-6.jpg">
+                <div class="layer">
+                    <h3>Log Monitoring</h3>
+                    <p>
+                        Continuous monitoring and analysis of security logs using advanced tools to detect and respond to incidents in real-time.                </p>    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+
+<!-- -------------------------Contact--------------------------- -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i>riwashneupane@gmail.com</p>
+                <p> <i class="fa-solid fa-square-phone"></i>+977 9861313477</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/chelsea.riwash"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/chelsea_riwash/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/chelsea-riwash/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://x.com/chelsea_riwash"><i class="fa-brands fa-square-x-twitter"></i></a>
+                </div>
+                <a href="images/riwash-cv.pdf" download class="btn2">Download My CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© 2025 Riwash Neupane. All Rights Reserved.
+            Steal my code, and I’ll send a phishing email <i class="fa-solid fa-fish-fins"></i> to your grandma <i class="fa-solid fa-envelope"></i> </p>
+    </div>
+ </div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu= document.getElementById("sidemenu")
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwLiTrpWji5R8uJo8YnrDn8SEQuppVA1lSf5qSec1jb_qUuQKJA4JOncYF4FtxreQ8a/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
