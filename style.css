@@ -397,6 +397,13 @@ form .btn2{
     color: #ff004f;
 }
 
+iframe {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border: none;
+}
+
 /* -------------------------------css for small screen ---------------------- */
 nav .fas{
     display: none;
@@ -458,6 +465,10 @@ nav .fas{
     }
     .copyright{
         font-size: 12px;
+    }
+
+    iframe {
+        height: 200px; /* Adjust iframe height for small screens */
     }
 }
 #msg{
